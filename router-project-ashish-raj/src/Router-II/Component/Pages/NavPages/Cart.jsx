@@ -1,5 +1,5 @@
 import React from "react";
-import { AppContext } from "../AppContext/AppContextProvider";
+import { AppContext } from "../../../AppContext/AppContextProvider";
 
 class Cart extends React.Component {
   constructor(props) {
@@ -9,11 +9,12 @@ class Cart extends React.Component {
 
   render() {
     const { cart } = this.context;
+
     console.log(cart);
     return (
       <>
         {cart.map((item) => (
-          <div
+          <div key={item.id}
             style={{
               display: "flex",
               flexDirection: "row",

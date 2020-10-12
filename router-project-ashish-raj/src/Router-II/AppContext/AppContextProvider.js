@@ -9,22 +9,33 @@ class AppContextProvider extends React.Component {
         this.state = {
             ListItems: "",
             isAuth: false,
-            cart: []
+            isLogin: false,
+            cart: [],
+            menCloth: [],
         }
     }
 
-    componentDidMount() {
+    componentDidMount = () => {
         axios
-            .get("http://localhost:3000/ListItems")
+            .get("http://localhost:3000/Men")
             .then((res) => {
-                const data = res.data.results;
-                // console.log(res);
                 this.setState({
-                    ListItems: res.data,
+                    menCloth: res.data,
                     isAuth: true
                 });
+                console.log(res)
             })
             .catch((error) => console.log(error));
+
+    }
+
+    handleLogin = (id, pass) => {
+        console.log(id, pass)
+        if (id === "ashish" && pass === "pass")
+            this.setState({
+                isLogin: true
+            })
+        console.log(this.state.isLogin)
     }
 
     AddToCart = (url, name, id) => {
@@ -38,25 +49,39 @@ class AppContextProvider extends React.Component {
         })
         console.log(this.state.cart)
     }
+
+    handleLogout = () => {
+        this.setState({
+            isLogin: false
+        })
+        alert("You are Loged Out")
+    }
+
     render() {
         const {
-            ListItems,
+            menCloth,
             isAuth,
-            cart
+            cart,
+            isLogin
         } = this.state
 
         const {
-            AddToCart
+            AddToCart,
+            handleLogin,
+            handleLogout
         } = this
+
         const value = {
-            ListItems,
+            menCloth,
             isAuth,
             AddToCart,
-            cart
+            cart,
+            handleLogin,
+            isLogin,
+            handleLogout
         }
 
-        return ( <
-            AppContext.Provider value = {
+        return ( < AppContext.Provider value = {
                 value
             } > {
                 this.props.children

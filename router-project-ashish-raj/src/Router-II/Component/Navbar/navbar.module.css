@@ -1,0 +1,14 @@
+.menu>*{
+    text-decoration: none;
+    color: white;
+}
+
+.ProductList{
+    margin-bottom: 15px;
+}
+
+.ProductList>*{
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+}

@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {
-  BrowserRouter
+  HashRouter
 } from "react-router-dom"
 import AppContextProvider from '../../router-project-ashish-raj/src/Router-II/AppContext/AppContextProvider';
 // import AppContextProvider from './Router-III/ContextProvider/AppContextProvider';
@@ -12,14 +12,14 @@ import AppContextProvider from '../../router-project-ashish-raj/src/Router-II/Ap
 
 
 ReactDOM.render( <
-  BrowserRouter >
+  HashRouter >
   <
   AppContextProvider >
   <
   App / >
   <
   /AppContextProvider> < /
-  BrowserRouter > ,
+  HashRouter > ,
   document.getElementById('root')
 )
 serviceWorker.unregister()

@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import Navbar from "../../router-project-ashish-raj/src/Router-II/Component/Navbar"
-// import PublicRoutes from "./Router-III/Router/PublicRoutes"
+import PublicRouters from "./Router-II/Component/Routes/PublicRouter"
+import Footer from "./Router-II/Component/Footer/Footer"
 
 function App() {
   return ( <
     div className = "App" >
-
     <
-    Navbar / >
+    div > <
+    PublicRouters / > < /div> <
+    div > <
+    Footer / > < /div>
+
     <
     /
     div >

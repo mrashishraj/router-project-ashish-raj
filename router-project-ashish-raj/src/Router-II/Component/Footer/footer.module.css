@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer h5{
+    color: #758787;
+    font-size: 12px;
+}
+ 
+.footer>div{
+    flex: 1;
+}
+
+.footer p{
+    font-size: 11px;
+}
+
