@@ -1,0 +1,9 @@
+.menuBtn{
+    display: flex;
+    margin-left: 160px;
+}
+
+.menuBtn>*{
+    margin-left: 25px;
+    text-decoration: none;
+}

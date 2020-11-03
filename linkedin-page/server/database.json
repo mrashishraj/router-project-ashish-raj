@@ -1,9 +1,146 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "users": [
+    {
+      "id": 1,
+      "user_name": "ashish",
+      "username_fullname": "Ashish Raj",
+      "password": 123,
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5103AQHfkXBqJi5PEQ/profile-displayphoto-shrink_400_400/0?e=1609372800&v=beta&t=DsplLu_IrikqOfENbMfqQCluGn7VsEyplkoAukHB5_Y"
+    },
+    {
+      "id": 2,
+      "user_name": "sudhanshu",
+      "username_fullname": "Sudhanshu Shekhar",
+      "password": 123,
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5103AQGoBX64iGgKVg/profile-displayphoto-shrink_800_800/0?e=1609372800&v=beta&t=5laskAIhPVUq7B2AMiFaJA1K9ec5CYG2bg29a2Ax7ss"
+    },
+    {
+      "id": 3,
+      "user_name": "raja",
+      "username_fullname": "Raja Choudhary",
+      "password": 123,
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5103AQEcoVu7OZHLmA/profile-displayphoto-shrink_800_800/0?e=1609372800&v=beta&t=9314c0xc5cMY9T2j4V26W7nezKrplkC1DszORqvYPAo"
+    },
+    {
+      "id": 4,
+      "user_name": "akshay",
+      "username_fullname": "Akshay Singh",
+      "password": 123,
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQEkJgPKhwQwNQ/profile-displayphoto-shrink_800_800/0?e=1609372800&v=beta&t=3hXUQvJAeIg9SzNdVbNXdZgtJMruir_OUp_s7c4QdrM"
+    }
+  ],
+  "post": [
+    {
+      "author_name": "Ashish Raj",
+      "author_username": "ashish",
+      "author_title": "student",
+      "author_avatar": "https://media-exp1.licdn.com/dms/image/C5103AQHfkXBqJi5PEQ/profile-displayphoto-shrink_400_400/0?e=1609372800&v=beta&t=DsplLu_IrikqOfENbMfqQCluGn7VsEyplkoAukHB5_Y",
+      "body": "hi this is ashish raj",
+      "comments": [
+        {
+          "id": "14d779bd-6dc0-4467-a80e-6123e8b17a72",
+          "comment_body": "hi ashish",
+          "comment_author": "Raja Choudhary"
+        },
+        {
+          "id": "a98d6be2-b0fc-456e-a833-f2f45d54d446",
+          "comment_body": "hi ashish",
+          "comment_author": "Akshay Singh"
+        }
+      ],
+      "likes": [
+        {
+          "user_id": 1,
+          "username": "Ashish Raj"
+        },
+        {
+          "user_id": 3,
+          "username": "Raja Choudhary"
+        },
+        {
+          "user_id": 2,
+          "username": "Sudhanshu Shekhar"
+        },
+        {
+          "user_id": 4,
+          "username": "Akshay Singh"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "author_name": "Raja Choudhary",
+      "author_username": "raja",
+      "author_title": "student",
+      "author_avatar": "https://media-exp1.licdn.com/dms/image/C5103AQEcoVu7OZHLmA/profile-displayphoto-shrink_800_800/0?e=1609372800&v=beta&t=9314c0xc5cMY9T2j4V26W7nezKrplkC1DszORqvYPAo",
+      "body": "hi this is raja ",
+      "comments": [
+        {
+          "id": "34c88122-e297-408d-9944-eb004775b0d6",
+          "comment_body": "hi raja ",
+          "comment_author": "Sudhanshu Shekhar"
+        },
+        {
+          "id": "e6dec354-4e48-4365-8e96-171ac55211b1",
+          "comment_body": "hi raja",
+          "comment_author": "Akshay Singh"
+        }
+      ],
+      "likes": [
+        {
+          "user_id": 3,
+          "username": "Raja Choudhary"
+        },
+        {
+          "user_id": 2,
+          "username": "Sudhanshu Shekhar"
+        },
+        {
+          "user_id": 4,
+          "username": "Akshay Singh"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "author_name": "Sudhanshu Shekhar",
+      "author_username": "sudhanshu",
+      "author_title": "student",
+      "author_avatar": "https://media-exp1.licdn.com/dms/image/C5103AQGoBX64iGgKVg/profile-displayphoto-shrink_800_800/0?e=1609372800&v=beta&t=5laskAIhPVUq7B2AMiFaJA1K9ec5CYG2bg29a2Ax7ss",
+      "body": "hi this is sudhanshu ",
+      "comments": [
+        {
+          "id": "d2331c32-a6ff-4b34-83f3-c2f54bddd350",
+          "comment_body": "hi sudhanshu",
+          "comment_author": "Akshay Singh"
+        }
+      ],
+      "likes": [
+        {
+          "user_id": 2,
+          "username": "Sudhanshu Shekhar"
+        },
+        {
+          "user_id": 4,
+          "username": "Akshay Singh"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "author_name": "Akshay Singh",
+      "author_username": "akshay",
+      "author_title": "student",
+      "author_avatar": "https://media-exp1.licdn.com/dms/image/C5603AQEkJgPKhwQwNQ/profile-displayphoto-shrink_800_800/0?e=1609372800&v=beta&t=3hXUQvJAeIg9SzNdVbNXdZgtJMruir_OUp_s7c4QdrM",
+      "body": "hi this is akshay",
+      "comments": [],
+      "likes": [
+        {
+          "user_id": 4,
+          "username": "Akshay Singh"
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
