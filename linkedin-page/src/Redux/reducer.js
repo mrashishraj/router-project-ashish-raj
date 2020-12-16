@@ -41,14 +41,14 @@ export default (state = initState,{type,payload})=>{
                 isLoading:true
             };
         case POST_LOGIN_DATA_SUCCESS:
-                console.log(payload)
+                // console.log(payload)
             return{
                 ...state,
                 isLoading:false,
                 user:payload.data[0],
                 isAuth:true
             };
-            console.log(state)
+            // console.log(state)
         case POST_LOGIN_DATA_FAILURE:
             return{
                 ...state,
@@ -82,7 +82,7 @@ export default (state = initState,{type,payload})=>{
                 isloading:true,
             };
         case FETCH_POST_DATA_SUCCESS:
-            console.log(payload)
+            // console.log(payload)
             return{
                 ...state,
                 isLoading:false,
@@ -113,12 +113,13 @@ export default (state = initState,{type,payload})=>{
                 errorMsg:payload.message
             }; 
 //-------------------COMMENT REQUEST------------------------
-        case POST_COMMENT_REQUEST:
+        case POST_COMMENT_REQUEST:            
             return{
                 ...state,
                 isLoading:true
             };
         case POST_COMMENT_SUCCESS:
+            console.log(payload)
             return{
                 ...state,
                 isLoading:false,               

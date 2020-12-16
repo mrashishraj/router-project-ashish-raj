@@ -164,7 +164,8 @@ export const postCommentFailure = payload => dispatch =>({
 })
 
 export const postComment = payload => dispatch =>{
-    dispatch(postCommentRequest(payload))
+    console.log(payload)
+    postCommentRequest(payload)
     const {uuid,commentText,author,Comment,postId} = payload
     let data = [...Comment,{id:uuid,comment_body:commentText,comment_author:author}]    
     axios.patch(`http://localhost:3000/post/${postId}`,{comments:data})

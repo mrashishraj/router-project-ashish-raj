@@ -141,6 +141,27 @@
         }
       ],
       "id": 4
+    },
+    {
+      "author_name": "Ashish Raj",
+      "author_username": "ashish",
+      "author_title": "student",
+      "author_avatar": "https://media-exp1.licdn.com/dms/image/C5103AQHfkXBqJi5PEQ/profile-displayphoto-shrink_400_400/0?e=1609372800&v=beta&t=DsplLu_IrikqOfENbMfqQCluGn7VsEyplkoAukHB5_Y",
+      "body": "life is race",
+      "comments": [
+        {
+          "id": "f1c491b5-9047-4889-9c47-4e76e74b3e6b",
+          "comment_body": "hi ashish",
+          "comment_author": "Ashish Raj"
+        }
+      ],
+      "likes": [
+        {
+          "user_id": 1,
+          "username": "Ashish Raj"
+        }
+      ],
+      "id": 5
     }
   ]
 }

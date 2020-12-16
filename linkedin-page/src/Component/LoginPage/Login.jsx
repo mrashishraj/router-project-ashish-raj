@@ -21,7 +21,7 @@ class Login extends React.Component{
     render(){
         const {username,password} = this.state
         const {login,isLoading,isAuth,user} = this.props
-        console.log(user,isLoading,isAuth)
+        // console.log(user,isLoading,isAuth)
 
         if(isAuth){
             return(

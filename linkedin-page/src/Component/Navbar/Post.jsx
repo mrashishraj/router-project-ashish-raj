@@ -16,7 +16,7 @@ export class Post extends React.Component{
     }
     render(){
         const {commentText} = this.state
-        console.log(commentText)
+        // console.log(commentText)
         const {item,username_fullname,id,handleLikes,handleComment} = this.props
         let obj = item.likes.find(item=>item.user_id==id)        
         return(            

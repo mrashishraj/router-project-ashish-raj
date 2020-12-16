@@ -28,7 +28,7 @@ class Navbar extends React.Component{
     }
 
     handleComment=(uuid,commentText,author,Comments,postId)=>{
-        console.log(commentText)
+        // console.log(commentText)
         let Comment = Comments 
         this.props.Comment({uuid,commentText,author,Comment,postId})
     }
@@ -159,22 +159,22 @@ class Navbar extends React.Component{
                     <div className="card rounded-lg m-3">
                         <div className="card-body">
                             <p className="text-left">Likedln News</p>                            
-                            <p class="p-0 m-0 font-weight-bolder text-left">
-                                <i class="text-primary fas fa-dot-circle"></i> Stuck in your career.
+                            <p className="p-0 m-0 font-weight-bolder text-left">
+                                <i className="text-primary fas fa-dot-circle"></i> Stuck in your career.
                             </p>
-                                <small class="p-0 font-weight-light">1 day ago . 23123 readers</small>
-                            <p class="p-0 m-0 font-weight-bolder text-left">
-                                <i class="text-primary fas fa-dot-circle"></i>The Skills employers.
+                                <small className="p-0 font-weight-light">1 day ago . 23123 readers</small>
+                            <p className="p-0 m-0 font-weight-bolder text-left">
+                                <i className="text-primary fas fa-dot-circle"></i>The Skills employers.
                             </p>
-                                <small class="p-0 font-weight-light">4 hrs ago . 987987 readers</small>
-                            <p class="p-0 m-0 font-weight-bolder text-left">
-                                <i class="text-primary fas fa-dot-circle"></i> Wipro sets stages.
+                                <small className="p-0 font-weight-light">4 hrs ago . 987987 readers</small>
+                            <p className="p-0 m-0 font-weight-bolder text-left">
+                                <i className="text-primary fas fa-dot-circle"></i> Wipro sets stages.
                             </p>
-                                <small class="p-0 font-weight-light">21 hrs ago . 9312 readers</small>
-                            <p class="p-0 m-0 font-weight-bolder text-left">
-                                <i class="text-primary fas fa-dot-circle"></i>H&M beats zara.
+                                <small className="p-0 font-weight-light">21 hrs ago . 9312 readers</small>
+                            <p className="p-0 m-0 font-weight-bolder text-left">
+                                <i className="text-primary fas fa-dot-circle"></i>H&M beats zara.
                             </p>
-                                <small class="p-0 font-weight-light">1 day ago . 675 readers</small>
+                                <small className="p-0 font-weight-light">1 day ago . 675 readers</small>
 
                         </div>
                     </div>
