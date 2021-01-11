@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_name": "ashish",
+      "username_fullname": "Ashish Raj",
+      "password": 123,
+      "avatar": "https://media-exp1.licdn.com/dms/image/C4D35AQHWEdeICsVMbw/profile-framedphoto-shrink_400_400/0/1609396443369?e=1610434800&v=beta&t=U5RGU2oon6gstioAR1frcbRC9RyhsmTNs0d-alvtWIY"
+    },
+    {
+      "id": 2,
+      "user_name": "sudhanshu",
+      "username_fullname": "Sudhanshu Shekhar",
+      "password": 123,
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5103AQGoBX64iGgKVg/profile-displayphoto-shrink_400_400/0/1531391567725?e=1616025600&v=beta&t=RTuJnDMQxPTgQI5PKNYKS7X-Zi0jXxspFFu0Ph8myHw"
+    },
+    {
+      "id": 3,
+      "user_name": "raja",
+      "username_fullname": "Raja Choudhary",
+      "password": 123,
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQEe6zeNqw9MOg/profile-displayphoto-shrink_400_400/0/1608176564062?e=1616025600&v=beta&t=KNxCPNqEuFCgXT-OJtJprhNdGTYDCG_x1GQP3OWewm8"
+    },
+    {
+      "id": 4,
+      "user_name": "akshay",
+      "username_fullname": "Akshay Singh",
+      "password": 123,
+      "avatar": "https://media-exp1.licdn.com/dms/image/C4E35AQEs_xE__0XHxw/profile-framedphoto-shrink_400_400/0/1609394856687?e=1610434800&v=beta&t=U1gKhumUZHJl8Hw4WQm2StdElpchg3OFAt5bLmul_u4"
+    }
+  ],
+  "post": [
+    {
+      "author_name": "Ashish Raj",
+      "author_username": "ashish",
+      "author_title": "student",
+      "author_avatar": "https://media-exp1.licdn.com/dms/image/C4D35AQHWEdeICsVMbw/profile-framedphoto-shrink_400_400/0/1609396443369?e=1610434800&v=beta&t=U5RGU2oon6gstioAR1frcbRC9RyhsmTNs0d-alvtWIY",
+      "body": "If you want walk fast, Walk alone. but if u want walk far, walk together.",
+      "comments": [
+        {
+          "id": "97b0399e-497a-4970-bfce-2460e03c6df5",
+          "comment_body": "great...bro",
+          "comment_author": "Raja Choudhary"
+        }
+      ],
+      "likes": [
+        {
+          "user_id": 3,
+          "username": "Raja Choudhary"
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
