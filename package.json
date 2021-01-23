@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Ashish Raj",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.2"
