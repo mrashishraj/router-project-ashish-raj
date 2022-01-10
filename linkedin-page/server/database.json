@@ -79,6 +79,11 @@
           "id": "a1c621bb-be46-4585-9f55-8ef0147450b7",
           "comment_body": "Inspiring",
           "comment_author": "Akshay Singh"
+        },
+        {
+          "id": "eb2dc3c5-bc94-4ee0-b11a-20eeedf26448",
+          "comment_body": "great",
+          "comment_author": "Ashish Raj"
         }
       ],
       "likes": [
@@ -104,9 +109,23 @@
         {
           "user_id": 4,
           "username": "Akshay Singh"
+        },
+        {
+          "user_id": 1,
+          "username": "Ashish Raj"
         }
       ],
       "id": 3
+    },
+    {
+      "author_name": "Ashish Raj",
+      "author_username": "ashish",
+      "author_title": "student",
+      "author_avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQH-lL18D1D4CQ/profile-displayphoto-shrink_400_400/0/1628605824183?e=1647475200&v=beta&t=v63ye90Y5I8mE6Dv_kzejOWx9T8xI6kWHAL8juifhmo",
+      "body": "test",
+      "comments": [],
+      "likes": [],
+      "id": 4
     }
   ]
 }
