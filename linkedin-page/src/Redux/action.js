@@ -46,7 +46,7 @@ export const fetchPostData = payload => dispatch =>{
     .then(res=>dispatch(fetchPostDataSuccess(res)))
     .catch(err=>dispatch(fetchPostDataFailure(err)))
 }
-
+    
 // ----------------LOGIN ACTION-------------------
 
 export const postLoginRequest = payload =>({

@@ -146,7 +146,7 @@ class Navbar extends React.Component{
                     <div className="card rounded-lg m-3">
                         <div className="card-body">
                             <input type="text" name="postValue" value={postValue} onChange={this.handleChange} placeholder="Write Your Post Here" className="rounded-pill" style={{float:"left",outline:"none",padding:"10px",width:"90%",border:"none",backgroundColor:"#EEF3F8"}}/>
-                            <button onClick={()=>post({postValue,user_name,username_fullname,avatar})} style={{float:"left",border:"none",padding:"7px"}} className="mt-1 rounded-lg"> Post </button>
+                            <button onClick={()=>post({postValue,user_name,username_fullname,avatar})} style={{float:"left",border:"none",padding:"7px",backgroundColor:"#0B66C2",color:"white"}} className="mt-1 rounded-lg"> Post </button>
                         </div>
                     </div>
                     <div>

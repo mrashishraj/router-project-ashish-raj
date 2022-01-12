@@ -94,6 +94,10 @@
         {
           "user_id": 4,
           "username": "Akshay Singh"
+        },
+        {
+          "user_id": 1,
+          "username": "Ashish Raj"
         }
       ],
       "id": 2
@@ -123,8 +127,19 @@
       "author_title": "student",
       "author_avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQH-lL18D1D4CQ/profile-displayphoto-shrink_400_400/0/1628605824183?e=1647475200&v=beta&t=v63ye90Y5I8mE6Dv_kzejOWx9T8xI6kWHAL8juifhmo",
       "body": "test",
-      "comments": [],
-      "likes": [],
+      "comments": [
+        {
+          "id": "fc309811-f7ef-4c3e-a3ce-b5f23b6d101f",
+          "comment_body": "test",
+          "comment_author": "Ashish Raj"
+        }
+      ],
+      "likes": [
+        {
+          "user_id": 1,
+          "username": "Ashish Raj"
+        }
+      ],
       "id": 4
     }
   ]
